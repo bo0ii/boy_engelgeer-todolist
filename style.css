@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;
+}
+
+body {
+    background-color:mediumturquoise;
+    color: white;
+    
+}
+
+header {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input-field {
+    min-width:50%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border:none;
+    background: white;
+}
+
+.add-button {
+    color: white;
+    background-color:royalblue;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border:none;
+    cursor: pointer;
+
+}
+
+.todo-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-list{
+    min-width:20%;
+    list-style:none;
+}
+
+.todo {
+    color:black;
+    margin: 0.5rem;
+    background: white;
+    display: flex;
+    justify-content:space-between;
+}
+
+.list-item {
+    padding: 0.5rem;
+}
+
+.check-button {
+    background:forestgreen;
+    color:white;
+    border: none;
+    padding: 0.5rem;
+}
+
+
+#delete-button {
+    background: royalblue;
+    color:white;
+    border: none;
+    padding: 0.5rem;
+}
+
+.fa-trash {
+    pointer-events: none;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
